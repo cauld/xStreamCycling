@@ -13,7 +13,9 @@ xStreamCycling scans cyclingfans.com at some scheduled interval (you set with cr
 cycling streams they have found on the web.  If that stream happens to be on FreeeTv (and it often is) 
 then we proceed with trying to capture it for offline viewing at our convenience.  FreeeTv lacks a 
 simple way to track down the time or type of broadcast for a channel (at least as far as I can see 
-anyway).  So cyclingfans serves as our filter to the FreeeTv service.  
+anyway).  So cyclingfans serves as our filter to the FreeeTv service.
+
+I build it for my own needs, but though perhaps others may find it useful.
 
 ## HOW IT WORKS ##
 1.  It uses [Yahoo! Pipes](http://pipes.yahoo.com) with some [Yahoo! Query Language (YQL)](http://developer.yahoo.com/yql/) magic 
