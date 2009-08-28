@@ -18,7 +18,7 @@ anyway).  So cyclingfans serves as our filter to the FreeeTv service.
 ## HOW IT WORKS ##
 1.  It uses [Yahoo! Pipes](http://pipes.yahoo.com) with some [Yahoo! Query Language (YQL)](http://developer.yahoo.com/yql/) magic 
     mixed to pickout the multimedia stream links.
-2.  It silents fires up the [VLC Media Player](http://www.videolan.org/vlc/) and captures the multimedia 
+2.  It silently fires up the [VLC Media Player](http://www.videolan.org/vlc/) and captures the multimedia 
     stream identified in step 1.
 3.  It emails you when a new stream has been found and recording has started.
 
