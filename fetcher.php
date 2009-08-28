@@ -11,7 +11,7 @@ define("VLC_LOCATION", "/Applications/VLC.app/Contents/MacOS/vlc"); //Where is y
 define("MASTER_DIRECTORY", dirname($_SERVER['SCRIPT_FILENAME'])); //Directory this file lives in
 define("STREAM_OUTPUT_LOCATION", MASTER_DIRECTORY . "/streams/"); //Where should we output the saved stream?
 define("CAPTURE_FILE", MASTER_DIRECTORY . "/captured.txt");
-define("CONTACT_EMAIL", "chadauld@gmail.com"); //Who to notify when a stream has started recording
+define("CONTACT_EMAIL", "your email here"); //Who to notify when a stream has started recording
 
 //Attempt to find live cycling mms:// stream urls
 $freeetvStreams = array();
