@@ -29,7 +29,8 @@ I build it for my own needs, but though perhaps others may find it useful.
 2.  Verify you have a recent version of VLC installed
 3.  Update the fetcher.php config settings with your local information
 4.  Schedule fetcher.php to run with a user that has access to read/write in the location you have 
-    place the xStreamCycling source code (ex) 0,30 * * * * /usr/bin/php /path/to/xStreamCycling/fetcher.php
+    place the xStreamCycling source code (ex) 
+    0,30 * * * * /usr/bin/php /path/to/xStreamCycling/fetcher.php
     
 Note: Since the streams are live I schedule a check for new ones every 30 mins
 
